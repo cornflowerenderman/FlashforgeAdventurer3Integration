@@ -1,13 +1,13 @@
 {
     "author": {
-        "author_id": "ronoaldo",
-        "display_name": "Ronoaldo JLP",
-        "email": "ronoaldo@gmail.com",
-        "website": "https://github.com/ronoaldo/FlashforgeFinderIntegration"
+        "author_id": "",
+        "display_name": "William Latter",
+        "email": "cornflowerenderman6669@outlook.com",
+        "website": "https://github.com/cornflowerenderman/FlashforgeAdventurer3Integration"
     },
-    "description": "Flashforge Finder integration utilities to enable setting up and using the printer. This plugin uses the configuration files from https://github.com/eskeyaar/Flashforge-Finder-",
-    "display_name": "Flashforge Finder Integration",
-    "package_id": "FlashforgeFinderIntegration",
+    "description": "Adds support for the Flashforge Adverturer 3 to Cura. Based on https://github.com/ronoaldo/FlashforgeFinderIntegration",
+    "display_name": "Flashforge Adventurer 3 Integration",
+    "package_id": "",
     "package_type": "plugin",
     "package_version": "2.0.0",
     "sdk_version": "8.1.0",
@@ -25,5 +25,5 @@
         "Flashforge",
 	    "Finder"
     ],
-    "website": "https://github.com/ronoaldo/FlashforgeFinderIntegration"
+    "website": "https://github.com/cornflowerenderman/FlashforgeAdventurer3Integration"
 }

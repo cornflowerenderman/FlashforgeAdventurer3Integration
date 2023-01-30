@@ -1,10 +1,10 @@
 {
-    "id": "Flashforge Finder ",
+    "id": "Flashforge Adventurer 3 ",
     "version": 2,
-    "name": "FlashForge Finder ",
+    "name": "FlashForge Adventurer 3 ",
     "inherits": "fdmprinter",
     "metadata": {
-        "author": "Santy3D",
+        "author": "William Latter",
         "manufacturer": "Flashforge",
         "category": "Other",
         "file_formats": "application/gx",
@@ -19,21 +19,14 @@
    },
 
     "overrides": {
-        "machine_name": { "default_value": "Flashforge Finder" },
-        "machine_start_gcode": {"default_value": "M140 S0\nM104 S{material_print_temperature} T0\nM104 S0 T1\nM107\nG90\nG28\nM132 X Y Z A B\nG1 Z50.00 F400\nG161 X Y F3300\nM6 T0\nM907 X100 Y100 Z40 A80 B20\nM108 T0\nG1 Z.20 F400"},
-        "machine_end_gcode":
-        {
-            "default_value": "M104 S0 T0\nG28 X Y\nM132 X Y Z A B\nG91\nM18 "
-        },
-        "machine_width": { "default_value":141.3 },
-        "machine_depth": { "default_value": 141.3 },
-        "machine_height": { "default_value": 140 },
-        "machine_heated_bed": { "default_value": false },
+        "machine_name": { "default_value": "Flashforge Adventurer 3" },
+        "machine_width": { "default_value":150 },
+        "machine_depth": { "default_value": 150 },
+        "machine_height": { "default_value": 150 },
+        "machine_heated_bed": { "default_value": true },
         "machine_center_is_zero": { "default_value": true },
         "machine_gcode_flavor": { "default_value": "Marlin" },
-        "machine_heated_build_volume": {"default_value" : false },
-        "gantry_height": {"default_value": 28}
-        
+        "machine_heated_build_volume": {"default_value" : false }
         
             }
 }

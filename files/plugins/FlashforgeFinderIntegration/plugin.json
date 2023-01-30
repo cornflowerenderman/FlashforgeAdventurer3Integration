@@ -1,8 +1,8 @@
 {
-    "name": "FlashforgeFinderIntegration",
-    "author": "Ronoaldo JLP",
+    "name": "FlashforgeAdventurer3Integration",
+    "author": "William Latter",
     "version": "2.0.0",
-    "description": "Flashforge Finder integration utilities to enable setting up and using the printer. This plugin uses the configuration files from https://github.com/eskeyaar/Flashforge-Finder-",
+    "description": "Adds support for the Flashforge Adverturer 3 to Cura. Based on https://github.com/ronoaldo/FlashforgeFinderIntegration",
     "api": 5,
     "supported_sdk_versions": [
         "7.2.0",
