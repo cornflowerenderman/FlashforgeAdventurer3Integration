@@ -1,5 +1,5 @@
 {
-    "name": "FlashforgeAdventurer3Integration",
+    "name": "FlashforgeAdventurerIntegration",
     "author": "William Latter",
     "version": "2.0.0",
     "description": "Adds support for the Flashforge Adverturer 3 to Cura. Based on https://github.com/ronoaldo/FlashforgeFinderIntegration",
